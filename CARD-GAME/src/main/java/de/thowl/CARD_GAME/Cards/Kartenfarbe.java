@@ -2,19 +2,20 @@ package de.thowl.CARD_GAME.Cards;
 
 public enum Kartenfarbe
  {
-    Kreuz,
-    Pik,
-    Karo,
-    Herz;
+    Kreuz(2),
+    Pik(3),
+    Karo(4),
+    Herz(5);
 
     
-/*private int kFarbe;
-    private Kartenfarbe(String farbe)
+private final int kFarbe;
+    
+    private Kartenfarbe(int farbe)
     {
         this.kFarbe= farbe;
     }
 
     public int getFarbe(){
         return kFarbe;
-    }*/
+    }
 }

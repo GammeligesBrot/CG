@@ -6,11 +6,11 @@ import java.util.Iterator;
 
 public class Kartenstapel {
 
-    private ArrayList Kartenstapel;
+    private final ArrayList<Karte> Kartenstapel;
 
     public Kartenstapel()
     {
-        this.Kartenstapel = new ArrayList();
+        this.Kartenstapel = new ArrayList<>();
         for(int i=0; i<8; i++)
         {
             Kartenwert wert = Kartenwert.values()[i];
@@ -22,7 +22,7 @@ public class Kartenstapel {
         }
         Collections.shuffle(Kartenstapel);
 
-        Iterator kartenIterator = Kartenstapel.iterator();
+        Iterator<Karte> kartenIterator = Kartenstapel.iterator();
         while(kartenIterator.hasNext())
         {
             Object vKarte = kartenIterator.next();

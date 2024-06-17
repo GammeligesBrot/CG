@@ -7,7 +7,7 @@ public class Karte
     private Kartenfarbe kFarbe;
     private Kartenwert kWert;
 
-    public Karte(Kartenwert kwert, Kartenfarbe kFarbe)
+    public Karte(Kartenwert kWert, Kartenfarbe kFarbe)
     {
         this.kFarbe = kFarbe;
         this.kWert = kWert;

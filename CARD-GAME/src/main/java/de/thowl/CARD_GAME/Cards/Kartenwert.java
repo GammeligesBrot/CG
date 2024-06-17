@@ -11,7 +11,7 @@ public enum Kartenwert
     Koenig(13),
     Ass(14);
 
-    private int kWert;
+    private final int kWert;
 
     private Kartenwert(int wert)
     {
