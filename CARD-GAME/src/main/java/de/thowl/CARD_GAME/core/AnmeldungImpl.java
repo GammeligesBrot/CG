@@ -1,8 +1,10 @@
-package de.thowl.Anmeldung;
+package de.thowl.CARD_GAME.core;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import de.thowl.CARD_GAME.storage.UserRepository;
+import de.thowl.CARD_GAME.storage.entities.User;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

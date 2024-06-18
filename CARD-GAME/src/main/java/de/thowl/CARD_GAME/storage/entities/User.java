@@ -1,4 +1,4 @@
-package de.thowl.Anmeldung;
+package de.thowl.CARD_GAME.storage.entities;
 
     import jakarta.persistence.Entity;
     import jakarta.persistence.GeneratedValue;

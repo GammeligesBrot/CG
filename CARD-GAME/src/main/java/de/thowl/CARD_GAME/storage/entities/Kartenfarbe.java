@@ -1,4 +1,4 @@
-package de.thowl.CARD_GAME.Cards;
+package de.thowl.CARD_GAME.storage.entities;
 
 public enum Kartenfarbe
  {

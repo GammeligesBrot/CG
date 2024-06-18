@@ -1,4 +1,4 @@
-package de.thowl.Anmeldung;
+package de.thowl.CARD_GAME.core;
 
 public interface Anmeldung {
     public boolean validateEmail(String email);
